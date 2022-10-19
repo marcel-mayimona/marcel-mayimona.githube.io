@@ -1,0 +1,31 @@
+# Assignment 1 "Basic mathematic operation in R - Formula 8
+
+```{r}
+#write a new function - nr 8
+
+function_nr_8 <- function(x) {
+  y = 10 * sqrt (x) + 3
+  return(y)
+}
+```
+
+Then...
+
+```{r}
+#generate a vector called "X"
+x <- c(1:100)
+class(x)
+```
+
+
+
+After that ...
+
+```{r}
+# create a ...
+y <- function_nr_8(x)
+y
+```
+
+Here is my graph ...\
+![graph_function_nr_8](Rplot.png)
